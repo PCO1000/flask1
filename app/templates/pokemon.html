@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+    {% block title %}
+        Pokemon Detail
+    {% endblock %}
+
+
+    {% block content %}
+    <div class="container w-25" id="form-container"> 
+        <form action="" method="POST">
+            {{form.hidden_tag() }}
+            <div class="mb-3">
+                {{form.pokemon_name.label}}
+                {{form.pokemon_name(class="form-control") }}
+            </div>
+            {{form.submit_btn(class="btn btn-primary d-block mx-auto") }}
+        </form>
+    </div>
+    {% endblock %}
+    
