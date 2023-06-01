@@ -15,5 +15,8 @@
             {{form.submit_btn(class="btn btn-primary d-block mx-auto") }}
         </form>
     </div>
+    {% if my_pokedata %}
+    <p>{{my_pokedata}}</p>
+    {% endif %}
     {% endblock %}
     

@@ -72,7 +72,7 @@ def poke():
                 'pk_base_exp': poke_data['base_experience'],
                 'pk_sprite_url': poke_data['sprites']['front_shiny']
             }
-            return my_pokedata
+            return render_template('pokemon.html', form=form, my_pokedata=my_pokedata)
         else:
                 'That Pokemon does not exist.'
     return render_template('pokemon.html', form=form)
