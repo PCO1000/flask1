@@ -3,3 +3,10 @@
     margin-top: 3rem;
     padding: 2rem;
 }
+
+#backimage {
+    background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/03/Fantastic-Pokemon-Wallpaper-Background.jpg');
+    width: 1300px;
+    height: 1000px;
+
+}

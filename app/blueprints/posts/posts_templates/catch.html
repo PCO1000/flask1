@@ -1,0 +1,35 @@
+<!---
+{% extends 'base.html' %}
+
+{% block title %}
+    Catch a Pokemon
+{% endblock %}
+
+{% block content %}
+<div class="container w-25" id="form-container"> 
+    <form action="" method="POST">
+        {{ form.hidden_tag() }}
+        <div class="mb-3">
+            {{ form.img_url.label }}
+            {{ form.img_url(class="form-control") }}
+        </div>
+        <div class="mb-3">
+            {{ form.name.label }}
+            {{ form.name(class="form-control") }}
+        </div>
+        <div class="mb-3">
+            {{ form.ability.label }}
+            {{ form.ability(class="form-control") }}
+        </div>
+        <div class="mb-3">
+            {{ form.base_exp.label }}
+            {{ form.base_exp(class="form-control") }}
+        </div>
+        {{ form.submit_btn(class="btn btn-primary d-block mx-auto") }}
+    </form>
+
+</div>
+
+{% endblock %}
+
+-->
